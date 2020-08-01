@@ -22,14 +22,14 @@ public class base {
     {
         prop = new Properties();
         
-        FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\data.properties");
+        FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"//src//main//java//com_professional//sample_project//data.properties");
         prop.load(file);
         
-        String browser_Name = System.getProperty("browser");
-        System.out.println("browser_Name");
+        String browser_Name = prop.getProperty("browser");
+        System.out.println("browser");
         
         if(browser_Name.equals("chrome")) {
-        	System.setProperty("webdriver.chrome.driver", "");
+        	System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
         	driver = new ChromeDriver();
         	
         }
