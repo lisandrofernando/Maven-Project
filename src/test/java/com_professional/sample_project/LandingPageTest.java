@@ -8,6 +8,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com_professional.sample_pageObjects.HomePageObjects;
@@ -15,13 +17,14 @@ import com_professional.sample_pageObjects.LoginPage;
 
 public class LandingPageTest extends base{
 	
-	@Test
-	public void practiceAutomation() throws IOException {
-	
-	
+	@BeforeTest
+	public void initializeBrowser() throws IOException {
 	driver = initializeDriver();
 	driver.get(prop.getProperty("url"));
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	}
+	@Test
+	public void testPractice() {
 	LoginPage ld = new LoginPage(driver);
 	ld.CustomerAccount().click();
 	ld.Email().sendKeys("camerdiaz@gmail.com");
@@ -43,6 +46,10 @@ public class LandingPageTest extends base{
 	obj.Agree().click();
 	obj.Continue().click();
 	obj.LogOut().click();
+	}
+	
+	@AfterTest
+	public void CloseBrowser() {
 	driver.close();
 	
 	

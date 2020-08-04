@@ -2,15 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35501" started-at="2020-08-04T22:56:56Z" finished-at="2020-08-04T22:57:31Z">
+  <suite name="Default suite" duration-ms="33989" started-at="2020-08-04T23:08:35Z" finished-at="2020-08-04T23:09:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35501" started-at="2020-08-04T22:56:56Z" finished-at="2020-08-04T22:57:31Z">
+    <test name="Default test" duration-ms="33989" started-at="2020-08-04T23:08:35Z" finished-at="2020-08-04T23:09:09Z">
       <class name="com_professional.sample_project.LandingPageTest">
-        <test-method status="PASS" signature="practiceAutomation()[pri:0, instance:com_professional.sample_project.LandingPageTest@59fa1d9b]" name="practiceAutomation" duration-ms="35437" started-at="2020-08-04T22:56:56Z" finished-at="2020-08-04T22:57:31Z">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com_professional.sample_project.LandingPageTest@27efef64]" name="initializeBrowser" is-config="true" duration-ms="11575" started-at="2020-08-04T23:08:35Z" finished-at="2020-08-04T23:08:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- practiceAutomation -->
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="testPractice()[pri:0, instance:com_professional.sample_project.LandingPageTest@27efef64]" name="testPractice" duration-ms="21925" started-at="2020-08-04T23:08:47Z" finished-at="2020-08-04T23:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPractice -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com_professional.sample_project.LandingPageTest@27efef64]" name="CloseBrowser" is-config="true" duration-ms="437" started-at="2020-08-04T23:09:09Z" finished-at="2020-08-04T23:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
       </class> <!-- com_professional.sample_project.LandingPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
