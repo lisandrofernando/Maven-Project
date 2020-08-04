@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12458" started-at="2020-08-01T22:51:27Z" finished-at="2020-08-01T22:51:39Z">
+  <suite name="Default suite" duration-ms="35501" started-at="2020-08-04T22:56:56Z" finished-at="2020-08-04T22:57:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12458" started-at="2020-08-01T22:51:27Z" finished-at="2020-08-01T22:51:39Z">
+    <test name="Default test" duration-ms="35501" started-at="2020-08-04T22:56:56Z" finished-at="2020-08-04T22:57:31Z">
       <class name="com_professional.sample_project.LandingPageTest">
-        <test-method status="PASS" signature="practiceAutomation()[pri:0, instance:com_professional.sample_project.LandingPageTest@59fa1d9b]" name="practiceAutomation" duration-ms="12410" started-at="2020-08-01T22:51:27Z" finished-at="2020-08-01T22:51:39Z">
+        <test-method status="PASS" signature="practiceAutomation()[pri:0, instance:com_professional.sample_project.LandingPageTest@59fa1d9b]" name="practiceAutomation" duration-ms="35437" started-at="2020-08-04T22:56:56Z" finished-at="2020-08-04T22:57:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- practiceAutomation -->
