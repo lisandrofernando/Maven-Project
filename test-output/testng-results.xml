@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33989" started-at="2020-08-04T23:08:35Z" finished-at="2020-08-04T23:09:09Z">
+  <suite name="Default suite" duration-ms="130103" started-at="2020-08-10T17:52:55Z" finished-at="2020-08-10T17:55:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33989" started-at="2020-08-04T23:08:35Z" finished-at="2020-08-04T23:09:09Z">
-      <class name="com_professional.sample_project.LandingPageTest">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com_professional.sample_project.LandingPageTest@27efef64]" name="initializeBrowser" is-config="true" duration-ms="11575" started-at="2020-08-04T23:08:35Z" finished-at="2020-08-04T23:08:47Z">
+    <test name="Default test" duration-ms="130103" started-at="2020-08-10T17:52:55Z" finished-at="2020-08-10T17:55:06Z">
+      <class name="com_professional.sample_project.SecondTest">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com_professional.sample_project.SecondTest@47c62251]" name="initializeBrowser" is-config="true" duration-ms="72998" started-at="2020-08-10T17:52:55Z" finished-at="2020-08-10T17:54:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="testPractice()[pri:0, instance:com_professional.sample_project.LandingPageTest@27efef64]" name="testPractice" duration-ms="21925" started-at="2020-08-04T23:08:47Z" finished-at="2020-08-04T23:09:09Z">
+        <test-method status="PASS" signature="testPractice2()[pri:0, instance:com_professional.sample_project.SecondTest@47c62251]" name="testPractice2" duration-ms="27629" started-at="2020-08-10T17:54:09Z" finished-at="2020-08-10T17:54:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPractice -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com_professional.sample_project.LandingPageTest@27efef64]" name="CloseBrowser" is-config="true" duration-ms="437" started-at="2020-08-04T23:09:09Z" finished-at="2020-08-04T23:09:09Z">
+        </test-method> <!-- testPractice2 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com_professional.sample_project.SecondTest@47c62251]" name="CloseBrowser" is-config="true" duration-ms="29197" started-at="2020-08-10T17:54:36Z" finished-at="2020-08-10T17:55:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-      </class> <!-- com_professional.sample_project.LandingPageTest -->
+      </class> <!-- com_professional.sample_project.SecondTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

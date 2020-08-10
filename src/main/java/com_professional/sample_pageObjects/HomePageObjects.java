@@ -61,6 +61,15 @@ public class HomePageObjects {
 	@FindBy(css="[title='Log me out']")
 	WebElement LogOut;
 	
+	@FindBy(xpath="//a[contains(text(),'Blouses')]")
+	WebElement Blouse;
+	
+	@FindBy(xpath="//span[contains(text(),'Add to cart')]")
+	WebElement AddCart;
+	
+	@FindBy(xpath="//a[contains(text(),'Women')]")
+	WebElement WomenTab;
+	
 	public WebElement MyStores() {
 		return MyStore;
 	}
@@ -109,6 +118,18 @@ public class HomePageObjects {
 	
 	public WebElement Chifondress() {
 		return chiffondress;
+	}
+	
+	public WebElement Blouse() {
+		return Blouse;
+	}
+	
+	public WebElement AddCart() {
+		return AddCart;
+	}
+	
+	public WebElement WomenTab() {
+		return WomenTab;
 	}
 	
 	
