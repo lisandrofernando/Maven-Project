@@ -33,6 +33,13 @@ public class LoginPage {
 //	@FindBy(css="[title='Printed Chiffon Dress']")
 //	WebElement chiffondress;
 //		
+	@FindBy(xpath="//*[contains(text(),'Welcome to your account. "
+			+ "Here you can manage all of your personal information and orders.')]")
+	WebElement Myaccount;
+	
+	public WebElement Myaccount() {
+		return Myaccount;
+	}
 	
 	public WebElement Email() {
 		return Email;

@@ -26,7 +26,7 @@ public class base {
         prop.load(file);
         
         String browser_Name = prop.getProperty("browser");
-        System.out.println("browser");
+        System.out.println(browser_Name);
         
         if(browser_Name.equals("chrome")) {
         	System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
