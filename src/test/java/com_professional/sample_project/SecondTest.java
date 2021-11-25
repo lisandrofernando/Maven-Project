@@ -3,6 +3,7 @@ package com_professional.sample_project;
 import static org.testng.Assert.assertEquals;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -10,13 +11,14 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com_professional.sample_pageObjects.HomePageObjects;
 import com_professional.sample_pageObjects.LoginPage;
-import junit.framework.Assert;
+
 
 public class SecondTest extends base{
 	

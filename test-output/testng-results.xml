@@ -1,35 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="117057" started-at="2020-08-19T16:31:28Z" finished-at="2020-08-19T16:33:25Z">
+  <suite started-at="2021-11-22T17:42:15Z" name="Default suite" finished-at="2021-11-22T17:42:46Z" duration-ms="30955">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@3abbfa04]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="117057" started-at="2020-08-19T16:31:28Z" finished-at="2020-08-19T16:33:25Z">
-      <class name="cucumberOptions.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@3abbfa04]" name="setUpClass" is-config="true" duration-ms="757" started-at="2020-08-19T16:31:28Z" finished-at="2020-08-19T16:31:29Z">
+    <test started-at="2021-11-22T17:42:15Z" name="Default test" finished-at="2021-11-22T17:42:46Z" duration-ms="30955">
+      <class name="com_professional.sample_project.PurchasePageTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com_professional.sample_project.PurchasePageTest@6d07a63d]" started-at="2021-11-22T17:42:15Z" name="initializeBrowser" finished-at="2021-11-22T17:42:25Z" duration-ms="9595" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@3abbfa04]" name="feature" duration-ms="115876" started-at="2020-08-19T16:31:29Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-19T16:33:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Application Behavior]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="testPractice()[pri:0, instance:com_professional.sample_project.PurchasePageTest@6d07a63d]" started-at="2021-11-22T17:42:25Z" name="testPractice" finished-at="2021-11-22T17:42:46Z" duration-ms="21179" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@3abbfa04]" name="tearDownClass" is-config="true" duration-ms="129" started-at="2020-08-19T16:33:25Z" finished-at="2020-08-19T16:33:25Z">
+        </test-method> <!-- testPractice -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com_professional.sample_project.PurchasePageTest@6d07a63d]" started-at="2021-11-22T17:42:46Z" name="CloseBrowser" finished-at="2021-11-22T17:42:46Z" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- cucumberOptions.TestRunner -->
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com_professional.sample_project.PurchasePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

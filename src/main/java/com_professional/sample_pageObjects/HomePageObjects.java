@@ -70,7 +70,7 @@ public class HomePageObjects {
 	@FindBy(xpath="//a[contains(text(),'Women')]")
 	WebElement WomenTab;
 	
-
+	
 	public WebElement MyStores() {
 		return MyStore;
 	}

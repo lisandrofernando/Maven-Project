@@ -29,7 +29,7 @@ public class base {
         System.out.println(browser_Name);
         
         if(browser_Name.equals("chrome")) {
-        	System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+        	System.setProperty("webdriver.chrome.driver", "/Applications/WEbDrivers/chromedriver");
         	driver = new ChromeDriver();
         	
         }
