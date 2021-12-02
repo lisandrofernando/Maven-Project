@@ -16,6 +16,7 @@ import org.testng.annotations.Test;
 
 import com_professional.sample_pageObjects.HomePageObjects;
 import com_professional.sample_pageObjects.LoginPage;
+import com_utils.sample_project.Utilities;
 
 public class PurchasePageTest extends base{
 	
@@ -51,10 +52,10 @@ public class PurchasePageTest extends base{
 	}
 	
 	@AfterTest
-	public void CloseBrowser() {
-	driver.close();
-	
+	public static void CloseBrowser() {
+	   driver.close();
 	
 	}
-
+	
+	
 }

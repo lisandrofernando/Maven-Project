@@ -1,0 +1,5 @@
+com_professional/sample_project/SecondTest.class
+com_professional/sample_project/PurchasePageTest.class
+stepDefinitions/stepPurchase.class
+cucumberOptions/TestRunner.class
+stepDefinitions/stepDefinition.class
