@@ -70,6 +70,9 @@ public class HomePageObjects {
 	@FindBy(xpath="//a[contains(text(),'Women')]")
 	WebElement WomenTab;
 	
+	@FindBy(css="[class='alert alert-danger']")
+	WebElement AuthenticationFailed;
+	
 
 	public WebElement MyStores() {
 		return MyStore;
@@ -133,6 +136,9 @@ public class HomePageObjects {
 		return WomenTab;
 	}
 	
+	public WebElement AutheticationFailed() {
+		return AuthenticationFailed;
+	}
 	
 	
 	

@@ -1,6 +1,8 @@
 package com_professional.sample_project;
 
-import static org.testng.Assert.assertEquals;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -16,10 +18,10 @@ import org.testng.annotations.Test;
 
 import com_professional.sample_pageObjects.HomePageObjects;
 import com_professional.sample_pageObjects.LoginPage;
-import junit.framework.Assert;
 
 public class SecondTest extends base{
-	
+	HomePageObjects obj = new HomePageObjects(driver);
+	String titlle = "Match your favorites blouses with the right accessories for the perfect look.";
 	@BeforeTest
 	public void initializeBrowser() throws IOException {
 	driver = initializeDriver();
@@ -30,10 +32,10 @@ public class SecondTest extends base{
 	public void testPractice2() {
 		try {
            Actions action = new Actions(driver);
-           action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Women')]"))).build().perform();
-           HomePageObjects obj = new HomePageObjects(driver);
+           action.moveToElement(obj.WomenTab()).build().perform();
+           
            obj.Blouse().click();
-           Assert.assertEquals("Match your favorites blouses with the right accessories for the perfect look.", "Match your favorites blouses with the right accessories for the perfect look.");
+           AssertJUnit.assertTrue(titlle, true);
            JavascriptExecutor js = (JavascriptExecutor)driver;
            js.executeScript("window.scrollTo(0,500)");
            for(int i=0; i<3; i++) {

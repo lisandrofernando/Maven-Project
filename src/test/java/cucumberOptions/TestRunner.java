@@ -6,12 +6,12 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
-//@RunWith(Cucumber.class)
+@RunWith(Cucumber.class)
 @CucumberOptions(
-		features="src/test/java/features/Home.feature", 
+		features="src/test/java/features/Login.feature", 
 		glue="stepDefinitions")
 
-public class TestRunner extends AbstractTestNGCucumberTests{
+public class TestRunner {
 
 	
 }
