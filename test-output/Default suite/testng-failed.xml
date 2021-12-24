@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com_professional.sample_project.PurchasePageTest">
+      <class name="com_professional.sample_project.SearchItem">
         <methods>
-          <include name="initializeBrowser"/>
-          <include name="testPractice"/>
           <include name="CloseBrowser"/>
+          <include name="testPractice"/>
+          <include name="initializeBrowser"/>
         </methods>
-      </class> <!-- com_professional.sample_project.PurchasePageTest -->
+      </class> <!-- com_professional.sample_project.SearchItem -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

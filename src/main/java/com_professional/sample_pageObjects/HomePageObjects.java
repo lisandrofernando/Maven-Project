@@ -1,5 +1,6 @@
 package com_professional.sample_pageObjects;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -73,6 +74,15 @@ public class HomePageObjects {
 	@FindBy(css="[class='alert alert-danger']")
 	WebElement AuthenticationFailed;
 	
+	@FindBy(id="search_query_top")
+	WebElement searchBox;
+	
+	@FindBy(tagName="a")
+	WebElement link;
+	
+	@FindBy(id="left_column")
+	WebElement leftColunmLinks;
+	
 
 	public WebElement MyStores() {
 		return MyStore;
@@ -92,13 +102,11 @@ public class HomePageObjects {
 	
 	public WebElement Agree() {
 		return Agree;
- }
+   }
 	
 	public WebElement LogOut() {
 		return LogOut;
- }
-	
-	
+   }
 	
 	public WebElement AddToCart() {
 		return AddToCart;
@@ -139,10 +147,16 @@ public class HomePageObjects {
 	public WebElement AutheticationFailed() {
 		return AuthenticationFailed;
 	}
+	public WebElement SearchBox() {
+		return searchBox;
+	}
+	public WebElement PrintLink() {
+		return link;
+	}
 	
-	
-	
-	
+	public WebElement leftColunmLinks() {
+		return leftColunmLinks;
+	}
 	
 	
 	
